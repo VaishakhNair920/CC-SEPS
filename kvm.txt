@@ -1,0 +1,9 @@
+sudo adduser  saurab
+sudo usermod -aG sudo saurab
+su saurab
+cd
+sudo adduser saurab libvirt
+sudo adduser aman kvm
+sudo systemctl status libvirtd
+sudo virt-manager
+python one.py
